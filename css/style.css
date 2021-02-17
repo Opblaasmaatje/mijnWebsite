@@ -16,6 +16,10 @@ body{
   background-color: #eeeeee;
 }
 
+.profileP{
+  padding:30px;
+}
+
 i{
   font-size: 2.2rem;
 }
