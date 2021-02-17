@@ -1,0 +1,28 @@
+.textBlue {
+  color: #060d57;
+}
+.tag{
+  margin: 4px 4px 4px 0px;
+  padding: 2px 6px;
+  line-height: 18px;
+  background-color: #eeeeee;
+  color: #000542;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+i{
+  font-size: 2.2rem;
+}
+
+.icons{
+  font-family: 'Arial';
+  color: #444444;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+}
