@@ -2,61 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title >Joris ter Wolbeek</title>
+  <title>Joris ter Wolbeek</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body style="margin-top:5%">
+
+<body onload="typeWriter()" style="margin-top:5%">
+
   <div class="container">
     <div class="row">
       <div class="one-half column">
         <img src="images/joris.png" class="u-max-full-width profileP" style="max-height:450px;">
-        <h1 class="textBlue" style="margin:0px;padding:0px;">Joris ter Wolbeek</h1>
+      </div>
+
+      <div class="one-half column" >
+        <h1 id="name" class="textBlue" style="margin:0px;padding:0px;"></h1>
         <h5 style="margin:0px;padding:0px;">BIT student</h5>
-        <p style="margin:0px;padding:0px;">
-          <a href="https://github.com/JoristerWolbeek" target="_blank"><i class="fab fa-github-square" style="color:#222;" ></i></a>
-          &nbsp;
-          &nbsp;
-          <a href="https://www.linkedin.com/in/joris-ter-wolbeek/" target="_blank"><i class="fab fa-linkedin-in" style="color:#222;"></i></a>
-        </p>
-        <p></p>
-      </div>
-    <div class="row">
-      <div class="one-half column " >
-        <h2 style="margin:0px;padding:0px;" class="textBlue">Work experience</h2>
-        <p style="margin:0px;padding:5px;">Internship @ <a href="https://www.brainblurb.com/" target="_blank">Brainblurb</a> - 2020/2021</p>
-        <p style="margin:0px;padding:5px;">Partime @ Japanese delicatesse Atariya - 2020/currently </a></p>
-        <p style="margin:0px;padding:5px;">Partime @ HMSHost - 2018/2020</a></p>
-        <p style="margin:0px;padding:5px;">Partime @ Bakker Bertram - 2012/2017</a></p>
-        <p></p>
-        <h4 class="textBlue" style="margin:0px;padding:0px;">Skills</h4>
-          <h6 style="margin:0px;padding:0px;">Frontend</h6>
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <h6 style="margin-bottom:0px;margin-top:0px;padding:0px;">Backend</h6>
-          <span class="tag">JS</span>
-          <span class="tag">PHP</span>
-          <span class="tag">MSQL</span>
-          <h6 style="margin-bottom:0px;margin-top:0px;padding:0px;">Tools</h6>
-          <span class="tag">BLUDIT</span>
-          <span class="tag">GIT</span>
-          <span class="tag">DOCKER</span>
-      </div>
-    </div>
-    <p></p>
-    <div class="row">
-        <h2 class="textBlue" style="margin:0px;padding:0px;">About me</h2>
+        <a href="https://github.com/JoristerWolbeek" target="_blank"><i class="fab fa-github-square" style="color:#222;" ></i></a>
+        &nbsp;
+        <a href="https://www.linkedin.com/in/joris-ter-wolbeek/" target="_blank"><i class="fab fa-linkedin-in" style="color:#222;"></i></a>
+        <h2 class="textBlue" style="margin-bottom:0px;margin-top:20px;padding:0px;">About me</h2>
         <p>A student who is eager to learn and happy to be studying at Bit Academy. Plays Magic The Gathering in his free time.</p> 
         <p>I have also spent one school year as an exchange student in Japan</p>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="one-half column" >
+        <h2 style="margin:0px;padding:0px;" class="textBlue">Work experience</h2>
+        <p>Internship @ <a href="https://www.brainblurb.com/" target="_blank">Brainblurb</a> - 2020/2021</p>
+        <p>Partime @ Japanese delicatesse Atariya - 2020/currently</p>
+        <p>Partime @ HMSHost - 2018/2020</p>
+        <p>Partime @ Bakker Bertram - 2012/2017</p>
+      </div>
+    <div class="one-half column">
+      <h4 class="textBlue" style="margin:0px;padding:0px;">Skills</h4>
+      <h6 style="margin:0px;padding:0px;">Frontend</h6>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <h6 style="margin-bottom:0px;margin-top:0px;padding:0px;">Backend</h6>
+      <span class="tag">JS</span>
+      <span class="tag">PHP</span>
+      <span class="tag">MSQL</span>
+      <h6 style="margin-bottom:0px;margin-top:0px;padding:0px;">Tools</h6>
+      <span class="tag">BLUDIT</span>
+      <span class="tag">GIT</span>
+      <span class="tag">DOCKER</span>
+  </div>
+</div>
+
   <div class="row">
     <div class="one-half column u-max-full-width" >
       <div class="typewriter">
-        <h2 class="textBlue">Projects</h2>
+        <h2 class="textBlue" style="margin-bottom:0px;margin-top:20px;padding:0px;">Projects</h2>
       </div>
       <h5 style="margin:0px;padding:0px;">Siliconcheese</h5>
       <p>Siliconcheese was a prototype project where I was tasked to make a news and event website centered around startups.</p>
@@ -79,6 +82,5 @@
   <h2><i>
     "Greatness at any cost."
   </i></h2>
-  <p class="tag" >made with <a href="http://getskeleton.com/" target="_blank">Skeleton</a></p>
 </footer>
 </html>
