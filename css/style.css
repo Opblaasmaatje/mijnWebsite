@@ -16,20 +16,14 @@
 body{
   background-color: #eeeeee;
 }
-
 .profileP{
   padding:5px;
 }
 .fab:hover{
   color:#060d57!important;
 }
-
 .fab{
   font-size: 2.2rem;
-}
-
-.img:hover{
-  filter: brightness(75%);
 }
 
 hr {
@@ -39,7 +33,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 1px;
+  border-width: 2px;
 }
 
 
